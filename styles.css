@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(24, 9, 9);
+    color: white;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+}
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+    color: antiquewhite;
+}
+
+h2 {
+    display: block;
+
+}
+
+.header h3 {
+    margin-bottom: 100px;
+    display: block;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+}
+
+.main h3 {
+    display: inline-block;
+    margin: 40px 110px;
+}
+
+.dice {
+    width: 100%;
+}
+
+.dice img {
+    display: inline-block;
+    height: 300px;
+    margin: 20px 70px;
+    border: 10px solid white;
+    border-radius: 50px;
+}
+
+.score {
+    width: 100%;
+}
+
+.roll {
+    text-align: center;
+    padding: 3% auto;
+    margin-bottom: 50px;
+}
+
+.roll button {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 5px solid rgb(48, 48, 48);
+    cursor: pointer;
+    font-family:  'Press Start 2P', cursive, sans-serif;
+    box-shadow: 0px 10px rgb(48, 48, 48);
+}
+
+.roll button:hover{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    border: 5px solid rgb(48, 48, 48);
+}
+
+.roll button:active {
+    box-shadow: 0px 5px rgb(48, 48, 48);
+    transform: translateY(5px);
+}
+
+.play-again {
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+.winner {
+    text-align: center;
+    margin-top: 20%;
+    height: 50%;
+    font-size: 30px;
+}
+
+.winner h1{
+    line-height: 100px;
+}
+
+@media (max-width: 960px){
+    .dice img {
+        height: 200px;
+        border: 5px solid white;
+        margin: 10px 10px;
+    }
+
+    .dice {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+        width: 80%;
+        padding: 0 10%;
+        line-height: 30px;
+        margin-bottom: 1px;
+    }
+
+    .heading h3 {
+        font-size: 0.7rem;
+        padding: 0 10%;
+        width: 80%;
+        line-height: 20px;
+    }
+
+    .dice {
+        display: inline-block;
+    }
+
+    .dice img {
+        margin: auto;
+        height: 150px;
+    }
+
+    .main h3 {
+        display: inline-block;
+        margin: 30px auto;
+    }
+
+    .roll button {
+        background-color: antiquewhite;
+        color: black;
+    }
+}
+

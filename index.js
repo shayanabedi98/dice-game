@@ -8,13 +8,13 @@ function game(){
     let rng1 = Math.floor((Math.random() * 6) + 1);
     let rng2 = Math.floor((Math.random() * 6) + 1);
     if (rng1 > rng2){
-        let green = header.innerHTML = 'Player one Wins! ' + rng1 + ' vs ' + rng2;
+        header.innerHTML = 'Player One Wins!'
         header.style.color = 'green';
     } else if (rng1 < rng2){
-        let red = header.innerHTML = 'Computer Wins! ' + rng1 + ' vs ' + rng2;
+        header.innerHTML = 'Player Two Wins!'
         header.style.color = 'red';
     } else if (rng1 === rng2){
-        header.innerHTML = "It's a Tie! " + rng1 + ' vs ' + rng2;
+        header.innerHTML = "It's a Tie!"
         header.style.color = 'yellow'
     }
 

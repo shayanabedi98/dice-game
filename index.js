@@ -47,10 +47,10 @@ function game(){
         }
     if (rng1 > rng2){
         scoreP1++;
-        document.querySelector('#p1').innerHTML = 'Player one: ' + scoreP1;
+        document.querySelector('#p1').innerHTML = '<span id="span1">Player</span> One: ' + scoreP1;
     } else if (rng1 < rng2){
         scoreP2++;
-        document.querySelector('#p2').innerHTML = 'Player Two: ' + scoreP2;
+        document.querySelector('#p2').innerHTML = '<span id="span2">Player</span> Two: ' + scoreP2;
     }
     if (scoreP1 === 5){
         window.location.replace('./p1-wins.html');

@@ -52,9 +52,9 @@ function game(){
         scoreP2++;
         document.querySelector('#p2').innerHTML = 'Player Two: ' + scoreP2;
     }
-    if (scoreP1 === 10){
+    if (scoreP1 === 5){
         window.location.replace('./p1-wins.html');
-    } else if (scoreP2 === 10){
+    } else if (scoreP2 === 5){
         window.location.replace('./p2-wins.html');
     }
 }

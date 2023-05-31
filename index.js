@@ -12,7 +12,7 @@ function game(){
         header.style.color = 'green';
     } else if (rng1 < rng2){
         header.innerHTML = 'Player Two Wins!'
-        header.style.color = 'red';
+        header.style.color = 'blue';
     } else if (rng1 === rng2){
         header.innerHTML = "It's a Tie!"
         header.style.color = 'yellow'

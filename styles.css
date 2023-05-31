@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(24, 9, 9);
+    background-color: rgb(15, 5, 5);
     color: white;
     font-family: 'Press Start 2P', cursive, sans-serif;
 }
@@ -43,12 +43,27 @@ h2 {
     display: inline-block;
     height: 300px;
     margin: 20px 70px;
-    border: 10px solid white;
     border-radius: 50px;
+}
+
+.player1 {
+    border: 10px solid green;
+}
+
+.player2 {
+    border: 10px solid blue;
 }
 
 .score {
     width: 100%;
+}
+
+#span1 {
+    color: green;
+}
+
+#span2 {
+    color: blue;
 }
 
 .roll {
